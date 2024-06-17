@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+:root{
+    --corBotoesH2Texto:#ffae00 ;
+    --border-radius: 10px;
+    --minhaFonte:  "Bebas Neue", sans-serif;
+    --text: "Space Grotesk", sans-serif;
+}
+
+body{
+    background-image: url(imagens/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+}
+
+header{
+   background-color:  #1E1F22;
+   text-align: center;
+   padding: 15px;
+}
+
+nav a{
+    color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: var(--minhaFonte);
+}
+.logo{
+    width: 250px;
+}
+h1{
+    text-transform: uppercase;
+    font-family: var(--minhaFonte);
+    font-size: 50px;
+}
+h2{
+    color: var(--corBotoesH2Texto);
+    text-align: center;
+}
+.boxProduto{
+    background-color: rgba(37, 37, 37, 0.8);
+    width: 850px;
+    margin: auto;
+    border-radius: var(--border-radius);
+}
+
+.imgProduto{
+    width: 400px; 
+}
+.boxImg , .boxTexto{
+    display: inline-block;
+    vertical-align: middle;
+}
+.boxTexto{
+    width: 400px;
+    text-align: start;
+}
+h1, h2, h3, button{
+    margin: 10px 0px;
+}
+button{
+    background-color: var(--corBotoesH2Texto);
+    padding: 15px;
+    border: none;
+    border-radius: var(--border-radius);
+    width: 150px;
+    
+}
